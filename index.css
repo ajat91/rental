@@ -1,0 +1,108 @@
+body {
+   font-family: sans-serif;
+}
+
+ 
+h2 {
+   color: #00a2c6
+}
+ 
+h3 {
+   color:  #06223A
+}
+ 
+}
+.profile {
+   text-align: center;
+}
+footer {
+   padding: 20px;
+   color: white;
+   background-color: #06223A;
+   text-align: center;
+   font-weight: bold;
+}
+nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+}
+nav a:hover {
+   color:#06223A;
+}
+.featured-image {
+   width: 20;
+   align-content: center;
+}
+.profile img {
+   width: 150px;
+   height: 150px;
+}
+.card {
+   box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+    padding: 20px;
+   margin-top: 20px;
+   text-align: justify;
+   min-height: 400px;
+}
+.jumbotron {
+   font-size: 20px;
+   padding: 60px;
+   background-color: #06223A;
+   text-align: center;
+   color: white;
+}
+nav li {
+   display: inline;
+   list-style-type: none;
+   margin-right: 20px;
+}
+nav {
+   background-color: #74ace6;
+   padding: 5px;
+   position: sticky;
+   top: 0;
+}
+nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color: white;
+}
+main {
+   padding: 20px;
+   overflow: auto;
+}
+#content {
+   float: left;
+   width: 75%;
+}
+.side {
+   float: right;
+   width: 25%;
+   padding-left: 20px;
+
+}
+
+aside {
+   float: right;
+   width: 25%;
+   padding-left: 20px;
+}
+.sidebar {
+
+   color: white;
+   background-color: #74ace6;
+   text-align: center;
+   font-weight: bold;
+   margin-top: 30px; 
+   margin-bottom: 20px; 
+     
+}
+* {
+   box-sizing: border-box;
+}
+header {
+   display: inline;
+}
